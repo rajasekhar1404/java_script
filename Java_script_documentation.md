@@ -85,3 +85,66 @@ function functionname(optional Parameters)
     functoin code
 }
 ```
+
+# Array's in JavaScript
+
+ Array's are used to store multiple values in a variable,
+  - we can create array's in two ways
+    - var a = new Array(1,3,5,6,7);
+    - var a =[1,3,5,6,7];
+  - to find the length of an array we use
+    - document.write(a.length);
+    - order of array is started with 0.
+  - to access a specific element in an array
+    - document.write(a[2]);
+
+# Conditional Statements in JavaScript
+
+  - if statements are used to check a condition is statisfying or not,
+  - we can check the if statements with
+
+```
+   if(condition1)
+   {
+     document.write();
+   }
+```
+ - if the above condition is not satisfying we can write another condition with
+```
+else if(condition2)
+{
+  document.write()
+}
+```
+ - in this way we can give an many else if condition as we need.
+ - at the end of the statemens we should provide an else statement to give an output when non of the conditions are satisfing. 
+```
+else
+{
+  document.write();
+}
+```
+
+ **Switch case**
+ - switch case is used to check the set of conditions
+ - if a condition is satisfied, we can break the statement there.
+ - if non of the conditions are satisfied, then we print the defalut statement.
+
+**loops**
+- **for loops**
+  - for loops are used to run a set of statements repeatedly until the conditions satifisies.
+```
+for(initiolization; condition; iteration)
+{
+  statement
+}  
+```
+**while loop**
+```
+initalization;
+while(condition)
+{
+  statements
+  iteration;
+}
+```
