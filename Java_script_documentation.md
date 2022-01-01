@@ -148,3 +148,10 @@ while(condition)
   iteration;
 }
 ```
+# date in JavaScript
+
+ - new Date()
+ - new Date(milliseconds)
+   - it will consider from 1970 jan 01 to till now.
+ - new Date(datestring)
+ - new Date(year, month, date[hour, minute, second, millisecond])
