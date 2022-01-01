@@ -155,3 +155,10 @@ while(condition)
    - it will consider from 1970 jan 01 to till now.
  - new Date(datestring)
  - new Date(year, month, date[hour, minute, second, millisecond])
+
+# Objects in JavaScript
+
+- object: collection of Properties
+- we define object with key value pairs,
+  - var person = {name:'rajasekhar', age:'24', email:'mrrajasekhar@gmail.com'}
+  - we can also add functions in a object and access them whenever we need.
