@@ -1,0 +1,39 @@
+<html>
+    <head><h1>
+        Errors in javascript</h1><br/>
+    </head>
+    <script type="text/javascript">
+        try{
+        document.write("Error free line");
+        
+        document.write("after error line");
+
+        var a = window.prompt("please eneter a number: ");
+        var b = parseInt(a);
+        
+        if(b>50)
+        {
+            document.write("</br>");
+            document.write("your number is above 50");
+        }
+        if(b<50)
+        {
+            document.write("your number is below 50");
+        }
+        }
+
+       
+        catch (error1)
+        {
+            document.write("error is:"+error1.message);
+        }
+        
+
+        finally{
+            document.write("<br/>");
+            document.write("printing from finally");
+        }
+        window.prompt("enter a number below 100");
+
+    </script>
+</html>

@@ -162,3 +162,12 @@ while(condition)
 - we define object with key value pairs,
   - var person = {name:'rajasekhar', age:'24', email:'mrrajasekhar@gmail.com'}
   - we can also add functions in a object and access them whenever we need.
+
+# Errors in JavaScript
+
+ - Errors are handled by try catch blocks
+ - we can define user specified values here to get an error.
+ - try: identify and throw predefined errors
+ - catch: handle the errors
+ - throw: to manually create and throw userdefined errors.
+ - finally: contains compulsarily executable statements.
