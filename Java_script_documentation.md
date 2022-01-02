@@ -1,4 +1,4 @@
-# Operators in java_scrit
+# Operators in java_script
 
 **arithmetic operators**:
 
