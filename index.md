@@ -1,7 +1,8 @@
 <html>
 <head>
+<script src="sec3_5.js"></script>
 </head>
 <body>
-<h1 style="color: red;">Rajasekhar</h1>
+<h1>Rajasekhar</h1>
 </body>
 </html>
